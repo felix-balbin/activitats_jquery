@@ -78,7 +78,16 @@ header{
     height: 10em;
     width: auto;
     float: left;   
+    opacity: 1;
+    border-radius: 10%;
+    box-shadow: none;
+    transition: height 3s,opacity 3s,box-shadow 1s ;
+}
 
+.foto-primerainfo:hover{
+    height: 15em;
+    opacity: 0.8;
+    box-shadow: 0px 10px 25px rgb(149, 118, 75);
 }
 
 
@@ -91,7 +100,18 @@ header{
     height: 10em;
     width: auto;
     float: right;
-    align-items:self-end
+    align-items:self-end;
+    opacity: 1;
+    border-radius: 10%;
+    border:none;
+    transition: height 3s,opacity 3s,border 2s;
+}
+
+.foto-segundainfo:hover{
+    height: 15em;
+    opacity: 0.8;
+    border: 10px solid burlywood;
+
 }
 
 .primertext{
