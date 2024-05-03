@@ -33,26 +33,36 @@
             <a id="subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit</a>    
         </div>
     </header>
+    
 
     <main class="main-principal">
+        <script>
+            $(document).ready(function(){
+                $("#sobre_nosaltres").click(function(){
+                    $("#tot_nosaltres").slideToggle("slow");
+                });
+            });
+        </script>
         <h2 id="sobre_nosaltres">Sobre nosaltres</h2>
 
-        
-        <div class="info" id="primerainfo">
-            <div class="foto-primerainfo">
-                <img class="fotos-info" src="./imagen/nuevas_fotos/sobreNosaltres1.jpg" alt="mesa con platos">    
-            </div>
-            <a class="primertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sollicitudin ligula, sit amet aliquam leo fringilla eget. Morbi in purus id justo lobortis finibus id in dui. Pellentesque ultrices et erat at condimentum. Aenean posuere commodo leo a bibendum. Nulla aliquam tempus felis. Phasellus et libero orci. Pellentesque rutrum fringilla eleifend. Nulla blandit leo eu est dapibus, ut blandit lectus imperdiet.</a>
-        </div>
-
-
-        <div class="info" id="segundainfo">
-            <div class="foto-segundainfo">
-                <img class="fotos-info" src="./imagen/nuevas_fotos/sobreNosaltres2.jpg" alt="platos de pollo con ensalada y pan">
+        <div id="tot_nosaltres">    
+            <div class="info" id="primerainfo">
+                <div class="foto-primerainfo">
+                    <img class="fotos-info" src="./imagen/nuevas_fotos/sobreNosaltres1.jpg" alt="mesa con platos">    
+                </div>
+                <a class="primertext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sollicitudin ligula, sit amet aliquam leo fringilla eget. Morbi in purus id justo lobortis finibus id in dui. Pellentesque ultrices et erat at condimentum. Aenean posuere commodo leo a bibendum. Nulla aliquam tempus felis. Phasellus et libero orci. Pellentesque rutrum fringilla eleifend. Nulla blandit leo eu est dapibus, ut blandit lectus imperdiet.</a>
             </div>
 
-            <a class="segontext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sollicitudin ligula, sit amet aliquam leo fringilla eget. Morbi in purus id justo lobortis finibus id in dui. Pellentesque ultrices et erat at condimentum. Aenean posuere commodo leo a bibendum. Nulla aliquam tempus felis. Phasellus et libero orci. Pellentesque rutrum fringilla eleifend. Nulla blandit leo eu est dapibus, ut blandit lectus imperdiet.</a>    
+
+            <div class="info" id="segundainfo">
+                <div class="foto-segundainfo">
+                    <img class="fotos-info" src="./imagen/nuevas_fotos/sobreNosaltres2.jpg" alt="platos de pollo con ensalada y pan">
+                </div>
+
+                <a class="segontext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis sollicitudin ligula, sit amet aliquam leo fringilla eget. Morbi in purus id justo lobortis finibus id in dui. Pellentesque ultrices et erat at condimentum. Aenean posuere commodo leo a bibendum. Nulla aliquam tempus felis. Phasellus et libero orci. Pellentesque rutrum fringilla eleifend. Nulla blandit leo eu est dapibus, ut blandit lectus imperdiet.</a>    
+            </div>
         </div>
+
 
         <h2 id="carta">Carta</h2>
         <div>
