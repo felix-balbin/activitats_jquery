@@ -61,19 +61,6 @@ header{
 }
 
 @keyframes canviColor{
-    /*
-    from {
-        opacity: 0;
-        top: 80%;
-        color: yellow;
-    }
-
-    to {
-        opacity: 1;
-        color: white;
-        top: 30%;
-    }*/
-    
     from{opacity: 0;top:80%;}
     to {opacity: 1;top:30%;}
     0%{
