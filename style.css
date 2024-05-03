@@ -45,10 +45,49 @@ header{
     top:30%;
     left: 8%;
     color: white;
+    animation-name: canviColor;
+    animation-duration: 2s;
 }
 
 #texto_portada h1{
     font-weight: 500;
+}
+
+#subtitulo{
+    animation-name: canviColor;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes canviColor{
+    /*
+    from {
+        opacity: 0;
+        top: 80%;
+        color: yellow;
+    }
+
+    to {
+        opacity: 1;
+        color: white;
+        top: 30%;
+    }*/
+    
+    from{opacity: 0;top:80%;}
+    to {opacity: 1;top:30%;}
+    0%{
+        color:yellow;
+
+    }
+    50%{
+        color:orange;
+    }
+    100%{
+        color: white;
+
+    }
+
 }
 
 #titol_pag{
